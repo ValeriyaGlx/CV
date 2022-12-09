@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    background-color: #8C783A;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+
+    background-color: #D9D6D2;
+    filter: drop-shadow(1px 1px 10px #262626);
+    border-radius: 5px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.header__photo{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #8C5614;
+}
+
+.main{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+.technical-skills__list-li{
+    display: flex;
+    align-items: center;
+}
+
+.technical-skills__logo{
+width: 20px;
+height: 20px;
+margin-right: 5px;
+}
+
+.contact__list--li{
+    display: flex;
+    align-items: baseline;
+}
+
+.contact__list--logo{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+
+.cv__footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__logo{
+    width: 50px;
+}
