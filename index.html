@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <base target="_blank">
     <title>Valeriia CV</title>
 </head>
 <body>
   <div class="container">
-    <header>
+  <header>
+    <nav  class="nav">
+      <ul class="nav-list">
+      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+      <li class="nav-item"><a href="#contacts" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+      
+      </ul>
+    </nav>
+  </header>
+
+
+  
+    <section>
     
         <div class="header__inner">
           <div class="header__photo--frame">
@@ -18,42 +32,40 @@
           </div>
           <div class="header__name">
             <h1>GALAKHOVA VALERIIA</h1>
-            <h3>frontend engineer</h3>
+            <h3>front-end engineer</h3>
           </div>
     </div>
-    
-    </header>
+    </section>
     
     <main class="main">
         <div class="cv--left">
           <div class="cv--left__info">
-            <h4 class="cv--left__title">Contact</h4>
+            <h4 class="cv--left__title">Contacts</h4>
             <ul class="contact__list">
               <li class="contact__list--li">
-                <img class="contact__list--logo" src="./img/mail.png" alt="">
+                <img class="contact__list--logo" src="./img/mail.svg" alt="">
                 <p class="contact__list__text">galakhova.valeriya@gmail.com</p>
               </li>
 
               <li class="contact__list--li">
-                <img class="contact__list--logo" src="./img/phone.png" alt="">
+                <img class="contact__list--logo" src="./img/phone.svg" alt="">
                 <p class="contact__list__text">+995511281806</p>
               </li>
 
               <li class="contact__list--li">
-                <img class="contact__list--logo" src="./img/loc.png" alt="">
+                <img class="contact__list--logo" src="./img/pin.svg" alt="">
                 <p class="contact__list__text">Batumi, Georgia</p>
               </li>
             </ul>
           </div>
 
           <div class="cv--left__info">
-            <h4 class="cv--left__title">Hard skills</h4>
-            <ul class="hard-skills__list">
-              <li>Problem solving</li>
-              <li>lorem</li>
-              <li>Problem solving</li>
-              <li>Problem solving</li>
-              <li>Problem solving</li>
+            <h4 class="cv--left__title">Soft Skills</h4>
+            <ul class="soft-skills__list">
+              <li>Creativity</li>
+              <li>Communication Skills</li>
+              <li>Teamwork</li>
+              <li>Growth Mindset</li>
               <li>Problem solving</li>
             </ul>
           </div>
@@ -75,7 +87,7 @@
               </li>
               <li class="technical-skills__list-li">
                 <img class="technical-skills__logo" src="./img/microsoft.svg" alt="">
-                <p class="technical-skills__text">SQL</p>
+                <p class="technical-skills__text">MySQL</p>
               </li>
               <li class="technical-skills__list-li">
                 <img class="technical-skills__logo" src="./img/github-mark.svg" alt="">
@@ -90,7 +102,20 @@
 
           <div class="cv--left__info">
             <h4 class="cv--left__title">Interest</h4>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <ul>
+              <li class="interest__list-li">
+                <img class="interest__logo" src="./img/dumbbell.svg" alt="interest__logo">
+                <p class="interest__text">sport</p>
+              </li>
+              <li class="interest__list-li">
+                <img class="interest__logo" src="./img/travel.svg" alt="interest__logo">
+                <p class="interest__text">travel</p>
+              </li>
+              <li class="interest__list-li">
+                <img class="interest__logo" src="./img/education.svg" alt="interest__logo">
+                <p class="interest__text">education</p>
+              </li>
+            </ul>
           </div>
 
         </div>
@@ -98,31 +123,96 @@
         <div class="cv--right">
           <div class="cv--right__info">
             <h4  class="cv--right__title">Education</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, cumque. Ab quasi consequuntur dolorum id officiis accusamus ut nihil, molestiae numquam veritatis. Placeat culpa ut ab voluptatem doloribus quos accusamus!</p>
+            <p>Samara State Aerospace University, <br> bio medical engineer</p>
           </div>
 
           <div class="cv--right__info">
-            <h4 class="cv--right__title">Work Expirence</h4>
+            <h4  class="cv--right__title">Courses</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, cumque. Ab quasi consequuntur dolorum id officiis accusamus ut nihil, molestiae numquam veritatis. Placeat culpa ut ab voluptatem doloribus quos accusamus!</p>
+          </div>
+
+
+          <div class="cv--right__info">
+            <h4 class="cv--right__title">Summary</h4>
             <p>Hi, This is Valeriia. Error illum nihil praesentium, minus reiciendis neque dicta aut voluptatem, quod mollitia aperiam sint odit placeat nulla iure. Voluptatum soluta error ullam.</p>
           </div>
 
           <div class="cv--right__info">
-            <h4 class="cv--right__title">Soft Skills</h4>
-            <ul class="hard-skills__list">
-              <li>Problem solving</li>
-              <li>lorem</li>
-              <li>Problem solving</li>
-              <li>Problem solving</li>
-              <li>Problem solving</li>
-              <li>Problem solving</li>
-            </ul>
+            
           </div>
 
           <div class="cv--right__info">
             <h4 class="cv--right__title">Languages</h4>
             <ul>
-              <li>Russian <b>Native</b></li>
-              <li>English <b>Entermediate+</b> </li>
+              <li>Russian <strong>Native</strong></li>
+              <li>English <strong>B2</strong> </li>
+            </ul>
+          </div>
+
+          <div class="cv--right__info">
+            <h4 class="cv--right__title">Code</h4>
+            <pre class="code">
+             <code>
+ document.body.addEventListener("mousemove", mouseMove);
+
+  const word = document.querySelector('h1');
+  const walk = 17;
+              
+ function mouseMove (e){
+  const { currentTarget: el, clientX: x, clientY: y } = e;
+  const { top: t, left: l, width: w, height: h } = el.getBoundingClientRect();
+
+  el.style.setProperty('--posX',  x-l-w/2);
+  el.style.setProperty('--posY',  y-t-h/2);
+              
+  let {offsetX: nameX , offsetY: nameY} = e;
+  const {offsetHeight: height, offsetWidth: width} = document.body;
+              
+   if (this !== e.target){
+   nameX = nameX + e.target.offsetLeft;
+   nameY = nameY + e.target.offsetTop;
+   }
+              
+  const xWalk = Math.round((nameX/width * walk) - walk/2);
+  const yWalk = Math.round((nameY/height * walk) - walk/2);
+              
+  word.style.textShadow = `${xWalk}px ${yWalk * -1}px 5px rgba(140,86,20, .3)`;
+  }
+             </code>
+            </pre>
+          </div>
+
+          <div class="cv--right__info">
+            <h4 class="cv--right__title">Projects</h4>
+            <ul class="projects__list">
+
+              <li class="projects__list--li">
+              <a href='https://valeriyaglx.github.io/whack-a-mole_/'>
+                <img class="projects__list--img" src="./img/whack a mole.png" alt="project__img">
+              </a>
+              <p class="projects__list--p">Whack a mole</p>
+              </li>
+
+              <li class="projects__list--li">
+              <a href='https://valeriyaglx.github.io/Fluppy-Bird/'>
+                <img class="projects__list--img" src="./img/fluppy.png" alt="project__img">
+              </a>
+              <p class="projects__list--p">Fluppy bird</p>
+              </li>
+
+              <li class="projects__list--li">
+                <a href='https://valeriyaglx.github.io/chess-moves/'>
+                <img class="projects__list--img" src="./img/chess.png" alt="project__img">
+                </a>
+                <p class="projects__list--p">Chess moves</p>
+              </li>
+
+              <li class="projects__list--li">
+                <a href='https://valeriyaglx.github.io/Simple-paint/'>
+                <img class="projects__list--img" src="./img/paint.png" alt="project__img">
+                </a>
+                <p class="projects__list--p">Paint</p>
+              </li>
             </ul>
           </div>
 
@@ -143,6 +233,7 @@
      </a>
     </footer>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
 
