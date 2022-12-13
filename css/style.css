@@ -32,6 +32,23 @@ body {
     padding: 0;
 }
 
+a{
+text-decoration: none;
+color: #262626 !important;
+}
+
+.nav-item{
+    margin: 0 1em;
+    transition: all .5s ease-in-out;
+    
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+}
+
+
+
 .container {
     width: 1000px;
     background-color: #D9D6D2;
@@ -69,6 +86,8 @@ transform: scale(1.6);
 
 .main{
     display: flex;
+    padding-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .header__name{
@@ -95,9 +114,13 @@ h3{
 }
 
 .cv--left{
-    margin-right: 4em;
+    margin-right: 2em;
     background-color: rgba(140,86,20, .04);
     padding: 1em;
+}
+
+.cv--right{
+padding-top: 1em;
 }
 
 li{
