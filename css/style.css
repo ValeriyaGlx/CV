@@ -112,6 +112,10 @@ h3{
     font-weight: 200;
 }
 
+h2{
+    font-size: 1.2rem;
+}
+
 .cv--left__title, .cv--right__title{
     text-transform: uppercase;
 }
