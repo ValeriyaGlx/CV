@@ -7,6 +7,7 @@ scroll-behavior: smooth;
 body {
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
     font-size: 15px;
     font-weight: 300;
     letter-spacing: .1em;
@@ -130,6 +131,10 @@ h2{
 padding-top: 1em;
 }
 
+.cv--right__info{
+    max-width: 640px;
+}
+
 span{
     color:#8C5614
 }
@@ -167,6 +172,9 @@ margin-right: 5px;
 
 .projects__list{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 50px;
 }
 
 .projects__list--img {
@@ -179,14 +187,18 @@ margin-right: 5px;
     font-size: 0;
     letter-spacing: .1em;
     position: absolute;
-    top:9em;
+    top:8.5em;
+    z-index: -1;
     transition: all .4s ease-in-out;
 }
 
 .projects__list--li{
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 5;
     transition: all .4s ease-in-out;
     
 }
