@@ -1,2 +1,2 @@
 # rsschool-cv
-https://github.com/ValeriyaGlx/rsschool-cv/blob/gh-pages/cv.md
+https://valeriyaglx.github.io/rsschool-cv/cv
