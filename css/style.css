@@ -51,11 +51,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #262626;
+  color: rgb(38, 38, 38);
 }
 
 span {
-  color: #8c5614;
+  color: rgb(140, 86, 20);
 }
 
 li {
@@ -64,20 +64,29 @@ li {
 
 .container {
   width: 1000px;
-  background-color: #d9d6d2;
-  filter: drop-shadow(1px 1px 10px #262626);
+  background-color: rgb(217, 214, 210);
+  filter: drop-shadow(1px 1px 10px rgb(38, 38, 38));
   border-radius: 0.5em;
   margin: 5em auto;
   padding: 20px;
 }
 
-.nav-item {
+.nav-item,
+.pdf-link {
   margin: 0 1em;
   transition: all 0.5s ease-in-out;
 }
 
-.nav-item:hover {
+.nav-item:hover,
+.pdf-link:hover {
   transform: scale(1.2);
+}
+
+.pdf-link {
+  background-color: rgb(140, 86, 20);
+  color: rgb(255, 255, 255);
+  padding: 2px 10px;
+  border-radius: 10px;
 }
 
 .nav {
@@ -101,7 +110,7 @@ li {
   margin-top: 1em;
   margin-bottom: 1em;
   border-radius: 50%;
-  border: 3px solid #8c5614;
+  border: 3px solid rgb(140, 86, 20);
 }
 
 .cv-name {
@@ -111,7 +120,7 @@ li {
 }
 
 .cv-name h1 {
-  filter: drop-shadow(1px 8px 5px #8c5614);
+  filter: drop-shadow(1px 8px 5px rgb(140, 86, 20));
   font-size: 3em;
   margin-bottom: 0.1em;
   letter-spacing: 0.2em;
@@ -140,7 +149,7 @@ th,
 td {
   padding: 10px;
   text-align: left;
-  border-bottom: 1.5px solid #ddd;
+  border-bottom: 1.5px solid rgb(221, 221, 221);
 }
 
 .main {
@@ -200,7 +209,7 @@ td {
 }
 
 .projects-table__links a:hover {
-  color: #8c5614;
+  color: rgb(140, 86, 20);
 }
 
 .project-img {
@@ -208,8 +217,9 @@ td {
 }
 
 .code-container {
-  width: 300px;
-  background-color: #fff;
+  width: 290px;
+  background-color: rgb(223, 220, 213);
+  overflow: auto;
 }
 
 .code {
@@ -218,15 +228,15 @@ td {
 }
 
 .code-red {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 
 .code-blue {
-  color: blue;
+  color: rgb(0, 0, 255);
 }
 
 .code-green {
-  color: green;
+  color: rgb(0, 128, 0);
 }
 
 .footer {
