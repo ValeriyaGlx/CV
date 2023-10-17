@@ -62,6 +62,26 @@ li {
   list-style-type: none;
 }
 
+h2 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
 .container {
   width: 1000px;
   background-color: rgb(217, 214, 210);
@@ -106,7 +126,9 @@ li {
 }
 
 .cv-photo img {
+  object-fit: cover;
   width: 12em;
+  height: 12em;
   margin-top: 1em;
   margin-bottom: 1em;
   border-radius: 50%;
@@ -130,26 +152,6 @@ li {
   text-transform: uppercase;
   letter-spacing: 1em;
   font-weight: 200;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-h4 {
-  margin: 0;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th,
-td {
-  padding: 10px;
-  text-align: left;
-  border-bottom: 1.5px solid rgb(221, 221, 221);
 }
 
 .main {
@@ -189,10 +191,11 @@ td {
 }
 
 .soft-skills__list {
-  line-height: 3em;
+  line-height: 2em;
 }
 
 .technical-skills__list-li {
+  height: 30px;
   display: flex;
   align-items: center;
 }
