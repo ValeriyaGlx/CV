@@ -39,7 +39,7 @@
         <article class="cv-name">
           <h1>GALAKHOVA VALERIIA</h1>
           <h3>front-end engineer</h3>
-            <a class="pdf-link" href="./assets/Galakhova Valeriya Front-end Developer.pdf" download>
+            <a class="pdf-link" href="assets/Galakhova%20Valeriya%20Front-end%20Developer.pdf" download>
               Download a PDF version
             </a>
         </article>
@@ -174,15 +174,11 @@
           <article class="main-right__article">
             <h2 class="main-right__header">Summary</h2>
             <p>
-              Hi, I'm Valeriia, a passionate front-end developer with</br>
-              a strong foundation in <span>JavaScript, HTML5 and CSS3</span>.
-              <br />
-              As <span>a candidate of chess-master</span>, I possess a highly analytical mind</br>
-              and a strategic approach to problem-solving.</br>
-              I am committed to continuous learning and self-improvement,</br>
-              leveraging <span>my strong self-educational and self-disciplinary skills</span>.</br>
-              I'd describe myself as someone who is ambitious, hardworking,<br/>
-              and motivated by challenges.
+              Passionate front-end developer with a strong foundation in <span>JavaScript</span>.
+              Candidate Master (CM)  in chess.
+              This unique experience has honed my analytical and strategic skills.
+              I am committed to continuous learning and improvement, leveraging my strong self-educational
+              and self-disciplinary skills. Others describe me as ambitious, hardworking, and motivated by challenges.
             </p>
           </article>
           <article class="main-right__article">
@@ -208,8 +204,56 @@
 
           <article class="main-right__article">
             <h2 class="main-right__header" id="projects">Projects</h2>
-            <table>
+            <table id="projects-table">
               <tbody>
+                <tr>
+                  <td>
+                    <h4 class="project-name">eCommerce Application</h4>
+                    <img
+                      class="project-img"
+                      src="assets/img/eCommerce.png"
+                      alt="project-img"
+                    />
+                  </td>
+                  <td class="projects-table__links">
+                    <a href="https://github.com/ValeriyaGlx/eCommerce-Application">Code</a>
+                    <a href="https://digi-set.netlify.app/">
+                      Deploy
+                    </a>
+                  </td>
+                  <td class="project-explanation">
+                    <span>An eCommerce DigiSet App is a dynamic web application for IT course sales.</span></br>
+                    Utilizing technologies like React, TypeScript, CRA, Jest, and ESLint, our team, led by me,
+                    crafted a seamless user experience. This includes secure registration, an intuitive shopping cart,
+                    anonymous shopping, and editable user profiles. Join us to explore a vast array of IT courses,
+                    designed for an enriched learning experience.
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <h4 class="project-name">Chess React</h4>
+                    <img
+                      class="project-img"
+                      src="assets/img/Chess.png"
+                      alt="project-img"
+                    />
+                  </td>
+                  <td class="projects-table__links">
+                    <a href="https://github.com/ValeriyaGlx/Chess-React">Code</a>
+                    <a href="https://valeriyaglx.github.io/Chess-React/">
+                      Deploy
+                    </a>
+                  </td>
+                  <td class="project-explanation">
+                    <span>"Chess App" is a dynamic web application developed using React and TypeScript.</span></br>
+                    Users can interact with the chessboard, rotating pieces in turns and visualizing possible moves.
+                    The application also supports essential chess functionalities, including castling,
+                    starting new games, and tracking captured pieces. The interface is intuitive and adaptive,
+                    providing an enjoyable chess-playing experience.
+                  </td>
+                </tr>
+
                 <tr>
                   <td>
                     <h4 class="project-name">Minesweeper</h4>
@@ -221,8 +265,7 @@
                   </td>
                   <td class="projects-table__links">
                     <a href="https://github.com/ValeriyaGlx/Minesweeper/tree/mineweeper">Code</a>
-                    <a
-                      href="https://valeriyaglx.github.io/Minesweeper/dist/">
+                    <a href="https://valeriyaglx.github.io/Minesweeper/dist/">
                       Deploy
                     </a>
                   </td>
@@ -240,7 +283,7 @@
 
                 <tr>
                   <td>
-                    <h4 class="project-name">CSS Selectors App</h4>
+                    <h4 class="project-name">CSS Selectors Application</h4>
                     <img
                       class="project-img"
                       src="assets/img/selectors.png"
@@ -361,6 +404,7 @@
                 </tr>
               </tbody>
             </table>
+            <div id="pagination"></div>
           </article>
         </section>
       </main>
